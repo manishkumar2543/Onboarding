@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body html{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+
+}
+.box-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+.box-1{
+    width: 22%;
+    height: 80%;
+    background-color: white;
+    padding: 10px;  
+    border-radius: 20px; 
+}
+.img-section{
+    height: 280px;
+    width: 300px;
+   margin: auto;
+
+}
+.img-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    
+}
+.content{
+    margin-top: 20px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.company-logo{
+    display: flex;
+   
+    align-items: center;
+    gap: 5px;
+}
+.content{
+    margin-top: 10px;
+}
+.service{
+    margin-top: 20px;
+}
+.service h3{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+}
+.service p{
+    color: rgb(68, 65, 65);
+    font-size: 16px;
+}
+.btn-sign{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.btn-sign button{
+    width: 270px;
+    padding: 15px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    transition: 2s ease-in-out;
+
+
+}
+.btn-sign button:hover{
+    background-color: rgb(73, 73, 232);
+    color: rgb(186, 181, 181);
+}
+
+
+
+
+
+
+
+
+.box-2{
+    width: 22%;
+    height: 80%;
+    background-color:#ffff;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.connection-logo{
+    height: 30px;
+    width: 30px;
+}
+.connection-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.connection-container{
+    margin-top: 30px;
+}
+.cntion-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin-top: 15px;
+    border-radius: 50px;
+    transition: 2s ease-in-out;
+}
+.cntion-box:hover{
+    background-color: #d5d5d5;
+    color: rgb(49, 47, 47);
+}
+
+
+.Account{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size:17px ;
+   
+}
+.sign-now{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: blue;
+}
+.sign-now:hover{
+    text-decoration: underline;
+}
+
+
+
+.box-3{
+    width: 22%;
+    height: 80%;
+    padding: 15px;
+    background-color:#ffff;
+    border-radius: 20px;
+}
+.sign-content{
+    margin-top: 35px;
+}
+.sign-content h3{
+    font-size: 35px;
+}
+.sign-content p{
+    color: rgb(77, 74, 74);
+}
+label{
+   padding-top: 10px;
+   margin-left: 6px;
+   font-size: 17px;
+}
+form{
+    margin-top: 30px;
+   
+}
+.form-control input{
+    width: 300px;
+    height: 45px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-account{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btn-account button{
+    width: 280px;
+    padding: 15px 20px;
+    background-color:blue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    transition: 2s ease-in-out;
+
+}
+.btn-account button:hover{
+    background-color: rgb(73, 73, 232);
+    color: rgb(186, 181, 181);
+}
